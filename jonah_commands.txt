@@ -1,0 +1,8 @@
+git clone
+touch
+nano
+git add
+git command
+git commit -m
+git push
+git status
