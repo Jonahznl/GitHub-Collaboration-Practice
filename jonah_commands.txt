@@ -6,3 +6,4 @@ git checkout -b
 git commit -m
 git push
 git status
+git push --set-upstream origin jonah_branch
