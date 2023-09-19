@@ -1,0 +1,17 @@
+
+ cd git
+git clone https://github.com/Jonahznl/GitHub-Collaboration-Practice.git
+cd GitHub-Collaboration-Practice
+git checkout -b new_branch
+switch new_branch
+cd ..
+git pull
+git pull origin main
+nano step3.txt 
+touch marisa.commands.txt
+nano marisa.commands.txt
+
+git status
+git add marisa.commands.txt
+git commit -m "Marisa's commands"
+git push
