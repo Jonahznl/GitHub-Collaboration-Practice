@@ -1,0 +1,13 @@
+cd git
+git clone https://github.com/Jonahznl/GitHub-Collaboration-Practice.git
+git % cd GitHub-Collaboration-Practice
+GitHub-Collaboration-Practice % git checkout -b saron_branch
+git pull origin main
+nano step3.txt (add my degree program information here)
+touch saron_commands.txt 
+nano saron_commands.txt (add my code here)
+git status (to check status of changes made)
+git add * (to add all files that were changed)
+git status (again to track changes after git add)
+git commit -m “Changes to the step3.txt and saron_commands.txt files”
+git push
