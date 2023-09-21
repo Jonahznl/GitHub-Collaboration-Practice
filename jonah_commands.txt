@@ -1,9 +1,13 @@
-git clone
-touch
-nano
-git add
-git checkout -b
-git commit -m
+git clone https://github.com/Jonahznl/GitHub-Collaboration-Practice.git
+touch step3.txt
+git add step3.txt
+git commit -m "step3"
 git push
-git status
+
+git checkout -b jonah_branch
+touch jonah_commands.txt
+nano jonah_commands.txt
+git add jonah_commands.txt
+git commit -m "commands used by jonah"
 git push --set-upstream origin jonah_branch
+git status
